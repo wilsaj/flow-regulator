@@ -1,0 +1,25 @@
+{
+  "name": "flow-regulator",
+  "version": "0.0.1",
+  "description": "regulate flow in node streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsaj/flow-regulator.git"
+  },
+  "keywords": [
+    "stream",
+    "flow",
+    "regulator",
+    "concurrency"
+  ],
+  "author": "andy wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilsaj/flow-regulator/issues"
+  },
+  "homepage": "https://github.com/wilsaj/flow-regulator#readme"
+}
