@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/wilsaj/flow-regulator#readme",
   "devDependencies": {
-    "babel-eslint": "^4.1.3",
     "standard": "^5.3.1"
   }
 }
