@@ -9,7 +9,7 @@ export default class FlowRegulator {
   start () {
     let regulator = this
 
-    return through(function write(data) {
+    return through(function write (data) {
       regulator.stream = this
       if (++regulator.active >= regulator.maxConcurrent) {
         regulator.stream.pause()
@@ -21,7 +21,7 @@ export default class FlowRegulator {
   end () {
     let regulator = this
 
-    return through(function write(data) {
+    return through(function write (data) {
       regulator.active--
       regulator.stream.resume()
       this.emit('data', data)
